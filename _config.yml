@@ -27,10 +27,10 @@ author:
   name             : "Taekyung Kim"
   pronouns         : # example: "she/her"  
   bio              : "Research Scientist @ NAVER AI Lab"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : # URL
+  employer         : # URL
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "taekyungkim918@gmail.com" 
 
   # Academic websites
   academia         : # URL
