@@ -9,11 +9,11 @@ redirect_from:
 
 Recent Preprints
 -----
-- (P6) Heeseong Shin, Byeongho Heo, Dongyoon Han, Seungryong Kim*, Taekyung Kim*, "Exploring Conditions for Diffusion models in Robotic Control", (Co-corresponding)
+- (P6) Heeseong Shin, Byeongho Heo, Dongyoon Han, Seungryong Kim\*, **Taekyung Kim\***, "Exploring Conditions for Diffusion models in Robotic Control", (Co-corresponding)
 
-- (P5) Minji Kim*, Taekyung Kim*, Bohyung Han, Map the Flow: Revealing Hidden Pathways of Information in VideoLLMs (Equal contribution)
+- (P5) Minji Kim\*, **Taekyung Kim\***, Bohyung Han, Map the Flow: Revealing Hidden Pathways of Information in VideoLLMs (Equal contribution)
 
-- (P4) Min-Seop Kwak, Junho Kim, Sangdoo Yun, Dongyoon Han, Taekyoung Kim, Seungryong Kim, Jin-Hwa Kim, "Aligned Novel View Image and Geometry Synthesis via Cross-modal Attention Instillation"
+- (P4) Min-Seop Kwak, Junho Kim, Sangdoo Yun, Dongyoon Han, **Taekyoung Kim**, Seungryong Kim, Jin-Hwa Kim, "Aligned Novel View Image and Geometry Synthesis via Cross-modal Attention Instillation"
 
 
 Selected Publications
