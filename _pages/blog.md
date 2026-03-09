@@ -1,4 +1,5 @@
----
+nav: false
+<!-- ---
 layout: default
 permalink: /blog/
 title: blog
@@ -193,4 +194,4 @@ pagination:
 {% include pagination.liquid %}
 {% endif %}
 
-</div>
+</div> -->
