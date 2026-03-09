@@ -31,6 +31,7 @@ latest_posts:
 My research focused on understanding complex dynamics and mapping them to real-world responses, ranging from linguistic responses to physical reactions. 
 <!-- Recent primary interests lie in interpreting sequential information for VideoLLM Vision-Language-Action understanding VLA and VideoLLM training (pre-training/fine-tuning).  -->
 
+
 I obtained my Ph.D. in Electrical Engineering at [Korea Advanced Institute of Science and Technology (KAIST)](https://kaist.ac.kr/) in 2022, advised by [Prof. Changick Kim](https://ee.kaist.ac.kr/en/professor/12157/).
 From 2016, I attended a graudate program in mathematics at [KAIST](https://kaist.ac.kr/) for one and a half years.
 I obtained my B.S. in Mathematical Science at [KAIST](https://kaist.ac.kr/) in 2016. 
