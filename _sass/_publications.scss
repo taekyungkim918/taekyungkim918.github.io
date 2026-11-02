@@ -23,3 +23,5 @@
 .paper .venue i{margin-right:4px}
 .paper .tag{font-family:inherit; font-size:11.5px; font-weight:600; line-height:18px; padding:0 8px; border:0; border-radius:9px; cursor:pointer; color:var(--link); background:color-mix(in srgb, var(--theme) 13%, transparent)}
 .paper .tag:hover{background:color-mix(in srgb, var(--theme) 24%, transparent)}
+/* Selected tab: no year headings */
+.pubs.selected-view .year-subheader{display:none}

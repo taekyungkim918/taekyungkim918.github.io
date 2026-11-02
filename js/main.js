@@ -22,6 +22,8 @@
     fbtns.forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.f === f ? 'true' : 'false'); });
     papers.forEach(function (p) { p.hidden = !(f === 'all' || (f === 'sel' && p.dataset.sel) || p.dataset.a.split(' ').indexOf(f) !== -1); });
     years.forEach(function (y) { y.hidden = !y.querySelector('.paper:not([hidden])'); });
+    var pubs = document.getElementById('publications');
+    if (pubs) pubs.classList.toggle('selected-view', f === 'sel');
   }
   if (fbtns.length) {
     fbtns.forEach(function (b) { b.addEventListener('click', function () { applyFilter(b.dataset.f); }); });
