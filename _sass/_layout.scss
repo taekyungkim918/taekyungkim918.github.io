@@ -77,6 +77,6 @@ body::before{content:""; position:fixed; inset:0 0 auto; height:env(safe-area-in
 .site-footer a{color:inherit; text-decoration:underline}
 .research{margin:0 0 20px; padding-left:20px}
 .research li{margin-bottom:8px}
-.research b{color:var(--strong); font-weight:600}
+.research b{color:var(--link); font-weight:600}
 .research b a{color:inherit; text-decoration:underline; text-decoration-color:color-mix(in srgb, var(--theme) 55%, transparent); text-underline-offset:3px}
 .research b a:hover{color:var(--theme)}

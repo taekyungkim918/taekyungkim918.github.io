@@ -66,6 +66,9 @@
   venue: "ECCV 2026"
   year: 2026
   areas: [rep]
+  links:
+    paper: https://arxiv.org/abs/2609.10292
+    code: https://github.com/naver-ai/aether
 - key: orca
   title: "ORCA: Exploring Conditions for Diffusion Models in Robotic Control"
   authors: "Heeseong Shin, Byeongho Heo, Dongyoon Han, Seungryong Kim†, Taekyung Kim†"
@@ -82,6 +85,9 @@
   venue: "CVPR 2026"
   year: 2026
   areas: [rep]
+  links:
+    paper: https://arxiv.org/abs/2602.06393
+    code: https://github.com/naver-ai/muco
 - key: map-the-flow
   title: "Map the Flow: Revealing Hidden Pathways of Information in VideoLLMs"
   authors: "Minji Kim*, Taekyung Kim*, Bohyung Han"
@@ -98,12 +104,19 @@
   venue: "ICLR 2026"
   year: 2026
   areas: [other]
+  links:
+    paper: https://arxiv.org/abs/2506.11924
+    code: https://github.com/cvlab-kaist/MoAI
+    project: https://cvlab-kaist.github.io/MoAI/
 - key: visualscratchpad
   title: "VisualScratchpad: Inference-time Visual Concepts Analysis in Vision Language Models"
   authors: "Hyesu Lim, Jinho Choi, Taekyung Kim, Byeongho Heo, Jaegul Choo, Dongyoon Han"
   venue: "ICLR 2026 Workshop"
   year: 2026
   areas: [interp]
+  links:
+    paper: https://arxiv.org/abs/2603.07335
+    project: https://hyesulim.github.io/visual_scratchpad_projectpage/
 - key: activeneus
   title: "ActiveNeuS: Active 3D Reconstruction using Neural Implicit Surface Uncertainty"
   authors: "Hyunseo Kim, Hyeonseo Yang, Taekyung Kim, YoonSung Kim, Jin-Hwa Kim, Byoung-Tak Zhang"
@@ -129,6 +142,9 @@
   venue: "CVPR 2025"
   year: 2025
   areas: [rep]
+  links:
+    paper: https://arxiv.org/abs/2306.11339
+    code: https://github.com/naver-ai/augsub
 - key: morphing-tokens
   title: "Morphing Tokens Draw Strong Masked Image Models"
   authors: "Taekyung Kim*, Byeongho Heo, Dongyoon Han*"
@@ -156,6 +172,9 @@
   venue: "ECCV 2024"
   year: 2024
   areas: [rep]
+  links:
+    paper: https://arxiv.org/abs/2404.17507
+    code: https://github.com/naver-ai/hype
 - key: unmasked-tokens
   title: "Learning with Unmasked Tokens Drives Stronger Vision Learners"
   authors: "Taekyung Kim*, Sanghyuk Chun, Byeongho Heo, Dongyoon Han*"
@@ -174,6 +193,8 @@
   venue: "ICML 2023"
   year: 2023
   areas: [other]
+  links:
+    paper: https://arxiv.org/abs/2302.01571
 - key: neural-transformation-network
   title: "Neural Transformation Network To Generate Diverse Views for Contrastive Learning"
   authors: "Taekyung Kim, Debasmit Das, Seokeon Choi, Minki Jeong, Seunghan Yang, Sungrack Yun, Changick Kim"
@@ -188,6 +209,9 @@
   areas: [rep]
 
 # 2021
+  links:
+    paper: https://arxiv.org/abs/2305.00729
+    code: https://github.com/naver-ai/cl-vs-mim
 - key: few-points-mvs
   title: "Just a Few Points are All You Need for Multi-View Stereo: A Novel Semi-Supervised Learning Method for Multi-View Stereo"
   authors: "Taekyung Kim, Jaehoon Choi, Seokeon Choi, Dongki Jung, Changick Kim"
@@ -202,18 +226,27 @@
   areas: [other]
 
 # 2020
+  links:
+    paper: https://arxiv.org/abs/2011.14670
+    code: https://github.com/bismex/MetaBIN
 - key: ape
   title: "Attract, Perturb, and Explore: Learning a Feature Alignment Network for Semi-supervised Domain Adaptation"
   authors: "Taekyung Kim, Changick Kim"
   venue: "ECCV 2020"
   year: 2020
   areas: [other]
+  links:
+    paper: https://arxiv.org/abs/2007.09375
+    code: https://github.com/TKKim93/APE
 - key: hi-cmd
   title: "Hi-CMD: Hierarchical Cross-Modality Disentanglement for Visible-Infrared Person Re-Identification"
   authors: "Seokeon Choi, Sumin Lee, Youngeun Kim, Taekyung Kim, Changick Kim"
   venue: "CVPR 2020"
   year: 2020
   areas: [other]
+  links:
+    paper: https://arxiv.org/abs/1912.01230
+    code: https://github.com/bismex/HiCMD
 - key: rpm-net
   title: "RPM-Net: Robust Pixel-Level Matching Networks for Self-Supervised Video Object Segmentation"
   authors: "Youngeun Kim, Seokeon Choi, Hankyeol Lee, Taekyung Kim, Changick Kim"
@@ -222,33 +255,46 @@
   areas: [other]
 
 # 2019
+  links:
+    paper: https://arxiv.org/abs/1909.13247
 - key: pseudo-labeling-curriculum
   title: "Pseudo-labeling Curriculum for Unsupervised Domain Adaptation"
   authors: "Jaehoon Choi, Minki Jeong, Taekyung Kim, Changick Kim"
   venue: "BMVC 2019"
   year: 2019
   areas: [other]
+  links:
+    paper: https://arxiv.org/abs/1908.00262
 - key: self-training-detection
   title: "Self-Training and Adversarial Background Regularization for Unsupervised Domain Adaptive One-Stage Object Detection"
   authors: "Seunghyeon Kim, Jaehoon Choi, Taekyung Kim, Changick Kim"
   venue: "ICCV 2019"
   year: 2019
   areas: [other]
+  links:
+    paper: https://arxiv.org/abs/1909.00597
 - key: self-ensembling-gan
   title: "Self-Ensembling With GAN-Based Data Augmentation for Domain Adaptation in Semantic Segmentation"
   authors: "Jaehoon Choi, Taekyung Kim, Changick Kim"
   venue: "ICCV 2019"
   year: 2019
   areas: [other]
+  links:
+    paper: https://arxiv.org/abs/1909.00589
 - key: diversify-and-match
   title: "Diversify and Match: A Domain Adaptive Representation Learning Paradigm for Object Detection"
   authors: "Taekyung Kim, Minki Jeong, Seunghyeon Kim, Seokeon Choi, Changick Kim"
   venue: "CVPR 2019"
   year: 2019
   areas: [other]
+  links:
+    paper: https://arxiv.org/abs/1905.05396
+    code: https://github.com/TKKim93/DivMatch
 - key: level-set-loss
   title: "CNN-Based Semantic Segmentation Using Level Set Loss"
   authors: "Youngeun Kim, Seunghyeon Kim, Taekyung Kim, Changick Kim"
   venue: "WACV 2019"
   year: 2019
   areas: [other]
+  links:
+    paper: https://arxiv.org/abs/1910.00950
