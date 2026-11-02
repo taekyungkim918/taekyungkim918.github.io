@@ -10,7 +10,7 @@ body{
 a{color:var(--link); text-decoration:none}
 a:hover{text-decoration:underline}
 a:focus-visible,button:focus-visible{outline:2px solid var(--theme); outline-offset:2px; border-radius:2px}
-.wrapper{max-width:960px; margin:0 auto; padding:0 50px}
+.wrapper{max-width:1250px; margin:0 auto; padding:0 50px}
 
 /* Site header: fixed, translucent, nav on the right (as in -folio) */
 .site-header{position:fixed; left:0; top:0; width:100%; z-index:50; padding-top:env(safe-area-inset-top,0px); background:var(--header-bg); border-bottom:1px solid var(--rule); backdrop-filter:blur(6px); -webkit-backdrop-filter:blur(6px)}
@@ -36,10 +36,10 @@ body::before{content:""; position:fixed; inset:0 0 auto; height:env(safe-area-in
 .post-title{font-size:42px; letter-spacing:-1px; line-height:1; font-weight:100; color:var(--strong)}
 .post-title b{color:var(--theme); font-weight:600}
 .post-description{margin-top:12px; font-size:16px; font-weight:100; color:var(--muted)}
-.about{margin-top:32px}
+.about{margin-top:14px}
 .about::after{content:""; display:block; clear:both}
-.col.one.right{float:right; width:33.33%; padding:5px 0 10px 20px}
-.col.one.right img{display:block; width:100%; aspect-ratio:1; object-fit:cover}
+.col.one.right{float:right; width:28%; padding:0 0 10px 24px}
+.col.one.right img{display:block; width:100%; height:auto; aspect-ratio:3/4; object-fit:cover}
 .about p{margin-bottom:20px}
 .about b, .about strong{color:var(--strong); font-weight:600}
 .contact{display:flex; flex-wrap:wrap; gap:6px 18px; margin:0 0 4px; font-size:15px}
