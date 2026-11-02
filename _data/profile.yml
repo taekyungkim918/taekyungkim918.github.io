@@ -32,8 +32,8 @@ research:
   - title: Interpretability of (M)LLMs
     filter: interp
     text: mechanistic analysis of reasoning and information flow across LLMs, Vision-Language-Action models, and omnimodal LLMs.
-  - title: LLM post-training
-    text: on-policy distillation and memory agents.
+  - title: LLM reasoning and agents
+    text: on-policy distillation, memory agents, and video editing agents; mechanistic analysis of chain-of-thought.
   - title: Scalable representation learning
     filter: rep
     text: self-supervised visual representation learning and masked image modeling.
