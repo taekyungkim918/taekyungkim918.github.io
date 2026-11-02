@@ -40,7 +40,7 @@ layout: default
 </section>
 
 <section id="news" aria-labelledby="h-news">
-  <h2 class="section-h" id="h-news">news</h2>
+  <h2 class="section-h" id="h-news">News</h2>
   <table class="news">
     {%- for n in site.data.news %}
     <tr><th scope="row">{{ n.date }}</th><td>{{ n.text | markdownify | remove: "<p>" | remove: "</p>" | strip }}</td></tr>
@@ -79,7 +79,7 @@ layout: default
 </section>
 
 <section id="service" aria-labelledby="h-svc">
-  <h2 class="section-h" id="h-svc">service</h2>
+  <h2 class="section-h" id="h-svc">Service</h2>
   <p class="svc-lead">Reviewer</p>
   <ul class="svc">
     {%- for s in site.data.service %}
