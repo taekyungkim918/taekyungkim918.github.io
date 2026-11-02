@@ -36,13 +36,13 @@ body::before{content:""; position:fixed; inset:0 0 auto; height:env(safe-area-in
 .post-title{font-size:42px; letter-spacing:-1px; line-height:1; font-weight:100; color:var(--strong)}
 .post-title b{color:var(--theme); font-weight:600}
 .post-description{margin-top:12px; font-size:16px; font-weight:100; color:var(--muted)}
-.about{margin-top:14px}
-.about::after{content:""; display:block; clear:both}
-.col.one.right{float:right; width:28%; padding:0 0 10px 24px}
-.col.one.right img{display:block; width:100%; height:auto; aspect-ratio:3/4; object-fit:cover}
+.intro{display:flex; align-items:center; gap:36px; margin-top:14px}
+.intro-photo{display:block; flex:0 0 auto; width:260px; height:auto; aspect-ratio:3/4; object-fit:cover}
+.intro-text{min-width:0}
+.about{margin-top:36px}
 .about p{margin-bottom:20px}
 .about b, .about strong{color:var(--strong); font-weight:600}
-.contact{display:flex; flex-wrap:wrap; gap:6px 18px; margin:0 0 4px; font-size:15px}
+.contact{display:flex; flex-wrap:wrap; gap:6px 18px; margin:16px 0 0; font-size:15px}
 .contact.mails{margin-top:4px}
 
 /* Section headings */
@@ -71,7 +71,8 @@ body::before{content:""; position:fixed; inset:0 0 auto; height:env(safe-area-in
   .site-nav{gap:12px}
   .page-link{font-size:15px}
   .post-title{font-size:34px}
-  .col.one.right{width:38%; padding-left:14px}
+  .intro{gap:18px}
+  .intro-photo{width:120px}
   .news th{width:78px}
 }
 .site-footer a{color:inherit; text-decoration:underline}

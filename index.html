@@ -3,13 +3,26 @@ layout: default
 ---
 {%- assign p = site.data.profile -%}
 <section id="about" aria-labelledby="h-name">
-  <h1 class="post-title" id="h-name">{{ p.name }}</h1>
-  <p class="post-description">{{ p.position }}</p>
+  <div class="intro">
+    {%- if p.photo %}
+    <img class="intro-photo" src="{{ p.photo | prepend: site.baseurl }}" alt="{{ p.name }}">
+    {%- endif %}
+    <div class="intro-text">
+      <h1 class="post-title" id="h-name">{{ p.name }}</h1>
+      <p class="post-description">{{ p.position }}</p>
+      <p class="contact">
+        {%- if p.email %}
+        <a href="mailto:{{ p.email }}">{{ p.email }}</a>
+        {%- endif %}
+        {%- for l in p.links %}{% if l.label != "CV" %}
+        {%- assign first = l.url | slice: 0 %}
+        <a href="{% if first == '/' %}{{ l.url | prepend: site.baseurl }}{% else %}{{ l.url }}{% endif %}">{{ l.label }}</a>
+        {%- endif %}{% endfor %}
+      </p>
+    </div>
+  </div>
 
   <div class="about">
-    {%- if p.photo %}
-    <div class="col one right"><img src="{{ p.photo | prepend: site.baseurl }}" alt="{{ p.name }}"></div>
-    {%- endif %}
     {%- for para in p.bio %}
     {{ para | markdownify }}
     {%- endfor %}
@@ -23,15 +36,6 @@ layout: default
     {%- for para in p.bio_after %}
     {{ para | markdownify }}
     {%- endfor %}
-    <p class="contact">
-      {%- if p.email %}
-      <a href="mailto:{{ p.email }}">{{ p.email }}</a>
-      {%- endif %}
-      {%- for l in p.links %}
-      {%- assign first = l.url | slice: 0 %}
-      <a href="{% if first == '/' %}{{ l.url | prepend: site.baseurl }}{% else %}{{ l.url }}{% endif %}">{{ l.label }}</a>
-      {%- endfor %}
-    </p>
   </div>
 </section>
 
