@@ -37,7 +37,7 @@ body::before{content:""; position:fixed; inset:0 0 auto; height:env(safe-area-in
 .post-title b{color:var(--theme); font-weight:600}
 .post-description{margin-top:12px; font-size:16px; font-weight:100; color:var(--muted)}
 .intro{display:flex; align-items:center; gap:32px; margin-top:14px; padding-bottom:24px; border-bottom:1px solid var(--rule)}
-.intro-photo{display:block; flex:0 0 auto; width:160px; height:auto; aspect-ratio:3/4; object-fit:cover; border-radius:6px}
+.intro-photo{display:block; flex:0 0 auto; width:190px; height:auto; aspect-ratio:1; object-fit:cover; border-radius:6px}
 .intro-text{min-width:0}
 .intro-text .post-description{font-size:19px; font-weight:400; color:var(--strong)}
 .about{margin-top:36px}
@@ -73,7 +73,7 @@ body::before{content:""; position:fixed; inset:0 0 auto; height:env(safe-area-in
   .page-link{font-size:15px}
   .post-title{font-size:34px}
   .intro{flex-direction:column; text-align:center; gap:20px}
-  .intro-photo{width:140px}
+  .intro-photo{width:150px}
   .intro-text .contact{justify-content:center}
   .news th{width:78px}
 }
