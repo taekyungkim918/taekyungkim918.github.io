@@ -1,0 +1,28 @@
+/**
+ * Theme tokens and base styles.
+ * Light (white + *folio $blue) is the default; dark is opt-in via the header toggle.
+ * Change --theme / --link below to recolor the site.
+ */
+/* Theme tokens. Light: white + -folio blue. */
+:root{
+  --bg:#fdfdfd; --text:#666; --strong:#222; --muted:#828282; --rule:#ddd; --header-bg:rgba(255,255,255,.88);
+  --theme:#2698ba;        /* -folio $blue: name, accents, underline */
+  --link:#1e7f9e;         /* same hue, darker for small link text */
+  --pub-text:#222; --pub-sub:#555; --pub-rule:#ddd; --btn-border:#bbb;
+  --footer-bg:#333; --footer-text:#aaa;
+  color-scheme:light;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#1c1c1d; --text:#c8c8c8; --strong:#ececec; --muted:#999; --rule:#3a3a3c; --header-bg:rgba(28,28,29,.88);
+    --theme:#5cc0dd; --link:#6fcae5; --pub-text:#e4e4e4; --pub-sub:#b5b5b5; --pub-rule:#3a3a3c; --btn-border:#555;
+    --footer-bg:#111; --footer-text:#888; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#1c1c1d; --text:#c8c8c8; --strong:#ececec; --muted:#999; --rule:#3a3a3c; --header-bg:rgba(28,28,29,.88);
+  --theme:#5cc0dd; --link:#6fcae5; --pub-text:#e4e4e4; --pub-sub:#b5b5b5; --pub-rule:#3a3a3c; --btn-border:#555;
+  --footer-bg:#111; --footer-text:#888; color-scheme:dark;
+}

@@ -1,0 +1,254 @@
+# Publications, newest first. The order inside a year is the display order.
+#
+# key       : unique id; used as the anchor (/#key) and by tools/bib2links.py
+# authors   : plain text. Your name (profile.yml) is highlighted automatically.
+#             Mark equal contribution with * and corresponding authors with †.
+# venue     : venue line under the authors (e.g. "CVPR 2026")
+# note      : optional extra line (e.g. a workshop version or an award)
+# areas     : one or more of physical | interp | rep | other, e.g. [physical, rep].
+#             Shown as tags next to the venue; a paper appears under every matching tab.
+# selected  : true shows the paper under the default "Selected" tab
+# preprint  : true lists it under "Preprints" instead of its year
+# links     : optional; any of paper, code, project, video, slides, poster
+
+
+# Preprints
+- key: sparse-feature-unlearning
+  title: "Sparse Feature Policy Unlearning Mitigates State Hallucination in Vision-Language-Action Models"
+  authors: "Jiho Lee, Jeongeun Park, Heayoun Choi, Taekyung Kim†, Eunwoo Kim†"
+  venue: "arXiv preprint, 2026"
+  year: 2026
+  areas: [interp, physical]
+  preprint: true
+  links:
+    paper: https://arxiv.org/abs/2610.09496
+- key: transferable-wam
+  title: "Learning Transferable World-Action Models from Task-Paired Human Videos"
+  authors: "Jeongeun Park, Taekyung Kim, Dongyoon Han, Sangdoo Yun"
+  venue: "arXiv preprint, 2026"
+  year: 2026
+  areas: [physical]
+  preprint: true
+  links:
+    paper: https://arxiv.org/abs/2610.14351
+- key: retrieve-dont-retrain
+  title: "Retrieve, Don’t Retrain: Extending Vision Language Action Models to New Tasks at Test Time"
+  authors: "Jeongeun Park, Juhan Park, Taekyung Kim, Sungjoon Choi, Dongyoon Han, Sangdoo Yun"
+  venue: "arXiv preprint, 2026"
+  year: 2026
+  areas: [physical]
+  preprint: true
+  links:
+    paper: https://arxiv.org/abs/2606.15631
+
+# 2026
+- key: spark
+  title: "SPARK: Simple Post-training for Adapting pRetrained Knowledge to Robot Control"
+  authors: "Taekyung Kim, Jeongeun Park, Byeongho Heo, Sungjoon Choi, Sangdoo Yun, Dongyoon Han"
+  venue: "CoRL 2026"
+  note: "Also at the CVPR 2026 Workshop on Scalable Robot Learning Systems."
+  year: 2026
+  areas: [physical]
+  selected: true
+- key: beneath-cot
+  title: "Beneath the Surface of Chains-of-Thought: A Mechanistic Interpretation of Reasoning Operations in LLMs"
+  authors: "Seogyeong Jeong, Jaehui Hwang, Dongyoon Han, Geonmo Gu, Alice Oh†, Taekyung Kim†"
+  venue: "EMNLP 2026"
+  year: 2026
+  areas: [interp]
+  selected: true
+  links:
+    paper: https://arxiv.org/abs/2609.04753
+    code: https://github.com/naver-ai/beneath-cot
+- key: isotropic-perturbation
+  title: "Isotropic Embedding Perturbations for Robust Vision Language Encoders"
+  authors: "Hyesong Choi, Daeun Kim, Song Park, Taekyung Kim, Byeongho Heo, Sangdoo Yun, Dongbo Min, Dongyoon Han"
+  venue: "ECCV 2026"
+  year: 2026
+  areas: [rep]
+- key: orca
+  title: "ORCA: Exploring Conditions for Diffusion Models in Robotic Control"
+  authors: "Heeseong Shin, Byeongho Heo, Dongyoon Han, Seungryong Kim†, Taekyung Kim†"
+  venue: "CVPR 2026"
+  year: 2026
+  areas: [physical]
+  selected: true
+  links:
+    paper: https://arxiv.org/abs/2510.15510
+    project: https://orca-rc.github.io/
+- key: muco
+  title: "MuCo: Multi-turn Contrastive Learning for Multimodal Embedding Model"
+  authors: "Geonmo Gu, Byeongho Heo, Jaemyung Yu, Jaehui Hwang, Taekyung Kim, Sangmin Lee, HeeJae Jun, Yoohoon Kang, Sangdoo Yun, Dongyoon Han"
+  venue: "CVPR 2026"
+  year: 2026
+  areas: [rep]
+- key: map-the-flow
+  title: "Map the Flow: Revealing Hidden Pathways of Information in VideoLLMs"
+  authors: "Minji Kim*, Taekyung Kim*, Bohyung Han"
+  venue: "ICLR 2026"
+  year: 2026
+  areas: [interp]
+  selected: true
+  links:
+    paper: https://arxiv.org/abs/2510.13251
+    project: https://map-the-flow.github.io
+- key: aligned-novel-view
+  title: "Aligned Novel View Image and Geometry Synthesis via Cross-modal Attention Instillation"
+  authors: "Min-Seop Kwak, Junho Kim, Sangdoo Yun, Dongyoon Han, Taekyung Kim, Seungryong Kim, Jin-Hwa Kim"
+  venue: "ICLR 2026"
+  year: 2026
+  areas: [other]
+- key: visualscratchpad
+  title: "VisualScratchpad: Inference-time Visual Concepts Analysis in Vision Language Models"
+  authors: "Hyesu Lim, Jinho Choi, Taekyung Kim, Byeongho Heo, Jaegul Choo, Dongyoon Han"
+  venue: "ICLR 2026 Workshop"
+  year: 2026
+  areas: [interp]
+- key: activeneus
+  title: "ActiveNeuS: Active 3D Reconstruction using Neural Implicit Surface Uncertainty"
+  authors: "Hyunseo Kim, Hyeonseo Yang, Taekyung Kim, YoonSung Kim, Jin-Hwa Kim, Byoung-Tak Zhang"
+  venue: "AAAI 2026 Workshop"
+  year: 2026
+  areas: [other]
+
+# 2025
+- key: token-bottleneck
+  title: "Token Bottleneck: One Token to Remember Dynamics"
+  authors: "Taekyung Kim, Dongyoon Han, Byeongho Heo, Jeongeun Park, Sangdoo Yun"
+  venue: "NeurIPS 2025"
+  year: 2025
+  areas: [physical, rep]
+  selected: true
+  links:
+    paper: https://arxiv.org/abs/2507.06543
+    code: https://github.com/naver-ai/tobo
+    project: https://token-bottleneck.github.io
+- key: masking-meets-supervision
+  title: "Masking meets Supervision: A Strong Learning Alliance"
+  authors: "Byeongho Heo, Taekyung Kim, Sangdoo Yun, Dongyoon Han"
+  venue: "CVPR 2025"
+  year: 2025
+  areas: [rep]
+- key: morphing-tokens
+  title: "Morphing Tokens Draw Strong Masked Image Models"
+  authors: "Taekyung Kim*, Byeongho Heo, Dongyoon Han*"
+  venue: "ICLR 2025"
+  year: 2025
+  areas: [rep]
+  selected: true
+  links:
+    paper: https://arxiv.org/abs/2401.00254
+    code: https://github.com/naver-ai/dtm
+
+# 2024
+- key: temporal-contextualization
+  title: "Leveraging Temporal Contextualization for Video Action Recognition"
+  authors: "Minji Kim, Dongyoon Han, Taekyung Kim†, Bohyung Han†"
+  venue: "ECCV 2024"
+  year: 2024
+  areas: [rep]
+  links:
+    paper: https://arxiv.org/abs/2404.09490
+    code: https://github.com/naver-ai/tc-clip
+- key: hyperbolic-entailment
+  title: "HYPE: Hyperbolic Entailment Filtering for Underspecified Images and Texts"
+  authors: "Wonjae Kim, Sanghyuk Chun, Taekyung Kim, Dongyoon Han, Sangdoo Yun"
+  venue: "ECCV 2024"
+  year: 2024
+  areas: [rep]
+- key: unmasked-tokens
+  title: "Learning with Unmasked Tokens Drives Stronger Vision Learners"
+  authors: "Taekyung Kim*, Sanghyuk Chun, Byeongho Heo, Dongyoon Han*"
+  venue: "ECCV 2024"
+  year: 2024
+  areas: [rep]
+  selected: true
+  links:
+    paper: https://arxiv.org/abs/2310.13593
+    code: https://github.com/naver-ai/lut
+
+# 2023
+- key: camera-pose-refinement
+  title: "Robust Camera Pose Refinement for Multi-Resolution Hash Encoding"
+  authors: "Hwan Heo, Taekyung Kim, Jiyoung Lee, Jaewon Lee, Soohyun Kim, Hyunwoo J. Kim, Jin-Hwa Kim"
+  venue: "ICML 2023"
+  year: 2023
+  areas: [other]
+- key: neural-transformation-network
+  title: "Neural Transformation Network To Generate Diverse Views for Contrastive Learning"
+  authors: "Taekyung Kim, Debasmit Das, Seokeon Choi, Minki Jeong, Seunghan Yang, Sungrack Yun, Changick Kim"
+  venue: "CVPR 2023 Workshop"
+  year: 2023
+  areas: [rep]
+- key: ssl-vit-learn
+  title: "What Do Self-Supervised Vision Transformers Learn?"
+  authors: "Namuk Park, Wonjae Kim, Byeongho Heo, Taekyung Kim, Sangdoo Yun"
+  venue: "ICLR 2023"
+  year: 2023
+  areas: [rep]
+
+# 2021
+- key: few-points-mvs
+  title: "Just a Few Points are All You Need for Multi-View Stereo: A Novel Semi-Supervised Learning Method for Multi-View Stereo"
+  authors: "Taekyung Kim, Jaehoon Choi, Seokeon Choi, Dongki Jung, Changick Kim"
+  venue: "ICCV 2021"
+  year: 2021
+  areas: [other]
+- key: meta-bin
+  title: "Meta Batch-Instance Normalization for Generalizable Person Re-Identification"
+  authors: "Seokeon Choi, Taekyung Kim, Minki Jeong, Hyoungseob Park, Changick Kim"
+  venue: "CVPR 2021"
+  year: 2021
+  areas: [other]
+
+# 2020
+- key: ape
+  title: "Attract, Perturb, and Explore: Learning a Feature Alignment Network for Semi-supervised Domain Adaptation"
+  authors: "Taekyung Kim, Changick Kim"
+  venue: "ECCV 2020"
+  year: 2020
+  areas: [other]
+- key: hi-cmd
+  title: "Hi-CMD: Hierarchical Cross-Modality Disentanglement for Visible-Infrared Person Re-Identification"
+  authors: "Seokeon Choi, Sumin Lee, Youngeun Kim, Taekyung Kim, Changick Kim"
+  venue: "CVPR 2020"
+  year: 2020
+  areas: [other]
+- key: rpm-net
+  title: "RPM-Net: Robust Pixel-Level Matching Networks for Self-Supervised Video Object Segmentation"
+  authors: "Youngeun Kim, Seokeon Choi, Hankyeol Lee, Taekyung Kim, Changick Kim"
+  venue: "WACV 2020"
+  year: 2020
+  areas: [other]
+
+# 2019
+- key: pseudo-labeling-curriculum
+  title: "Pseudo-labeling Curriculum for Unsupervised Domain Adaptation"
+  authors: "Jaehoon Choi, Minki Jeong, Taekyung Kim, Changick Kim"
+  venue: "BMVC 2019"
+  year: 2019
+  areas: [other]
+- key: self-training-detection
+  title: "Self-Training and Adversarial Background Regularization for Unsupervised Domain Adaptive One-Stage Object Detection"
+  authors: "Seunghyeon Kim, Jaehoon Choi, Taekyung Kim, Changick Kim"
+  venue: "ICCV 2019"
+  year: 2019
+  areas: [other]
+- key: self-ensembling-gan
+  title: "Self-Ensembling With GAN-Based Data Augmentation for Domain Adaptation in Semantic Segmentation"
+  authors: "Jaehoon Choi, Taekyung Kim, Changick Kim"
+  venue: "ICCV 2019"
+  year: 2019
+  areas: [other]
+- key: diversify-and-match
+  title: "Diversify and Match: A Domain Adaptive Representation Learning Paradigm for Object Detection"
+  authors: "Taekyung Kim, Minki Jeong, Seunghyeon Kim, Seokeon Choi, Changick Kim"
+  venue: "CVPR 2019"
+  year: 2019
+  areas: [other]
+- key: level-set-loss
+  title: "CNN-Based Semantic Segmentation Using Level Set Loss"
+  authors: "Youngeun Kim, Seunghyeon Kim, Taekyung Kim, Changick Kim"
+  venue: "WACV 2019"
+  year: 2019
+  areas: [other]

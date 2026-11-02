@@ -1,0 +1,46 @@
+# Shown in the header and the about section.
+name: Taekyung Kim
+first_name: Taekyung        # highlighted in the header
+position: Research Scientist @ NAVER AI Lab
+photo: /img/prof_pic.jpg    # put your photo here (square works best)
+
+email: taekyungkim918@gmail.com
+links:                      # shown after the email, in this order
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=u-9bdkwAAAAJ
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/taekyung-kim-76b074335/
+  - label: CV
+    url: /assets/pdf/cv.pdf # replace the PDF to update
+
+# Paragraphs before the research list. Markdown is allowed.
+bio:
+  - >-
+    I am a Research Scientist at NAVER AI Lab. I received my Ph.D. in Electrical Engineering
+    from [KAIST](https://kaist.ac.kr/), where I was advised by
+    [Prof. Changick Kim](https://ee.kaist.ac.kr/en/professor/12157/).
+  - >-
+    I study how models learn the dynamics of the world and map them to grounded responses,
+    from language to physical action, and how these mappings are realized inside the models.
+
+# Research topics, shown as a bulleted list (same as the CV).
+# filter: optional tab id from filters.yml; the topic name then opens that tab.
+research:
+  - title: Physical AI
+    filter: physical
+    text: representation learning and post-training for robot control, World Action Models, and Vision-Language-Action models.
+  - title: Interpretability of (M)LLMs
+    filter: interp
+    text: mechanistic analysis of reasoning and information flow across LLMs, Vision-Language-Action models, and omnimodal LLMs.
+  - title: LLM post-training
+    text: on-policy distillation and memory agents (ongoing / under review).
+  - title: Scalable representation learning
+    filter: rep
+    text: self-supervised visual representation learning and masked image modeling.
+
+# Paragraphs after the research list.
+bio_after:
+  - >-
+    Before joining NAVER AI Lab in 2022, I was a research intern at Qualcomm Korea and Kakao.
+    I received my B.S. in Mathematical Sciences from KAIST and spent a year and a half in its
+    graduate program in mathematics.

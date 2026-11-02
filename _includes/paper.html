@@ -1,0 +1,30 @@
+{%- comment -%} One publication. Parameter: include.p (entry from _data/publications.yml) {%- endcomment -%}
+{%- assign p = include.p -%}
+{%- assign extra = site.data.pub_links[p.key] -%}
+{%- if p.areas %}{% assign tags = p.areas %}{% else %}{% assign tags = p.area | split: "," %}{% endif -%}
+{%- capture me %}<span class="me">{{ site.data.profile.name }}</span>{% endcapture -%}
+<div class="paper" id="{{ p.key }}" data-a="{{ tags | join: ' ' }}"{% if p.selected %} data-sel="1"{% endif %}>
+  <p class="title"><b>{{ p.title }}</b></p>
+  <p>{{ p.authors | replace: site.data.profile.name, me }}</p>
+  <p class="venue"><i>{{ p.venue }}</i>
+    {%- for t in tags %}{% assign f = site.data.filters | where: "id", t | first %}
+    <button type="button" class="tag" data-f="{{ t }}" title="Show {{ f.label | default: t }} papers">{{ f.label | default: t }}</button>
+    {%- endfor %}
+  </p>
+  {%- if p.note %}
+  <p class="paper-note"><i>{{ p.note }}</i></p>
+  {%- endif %}
+  {%- capture buttons -%}
+    {%- assign kinds = "paper,arxiv,code,project,video,slides,poster" | split: "," -%}
+    {%- for kind in kinds -%}
+      {%- assign url = p.links[kind] | default: extra[kind] -%}
+      {%- if url -%}
+        {%- assign first = url | slice: 0 -%}
+        <a class="button" href="{% if first == '/' %}{{ url | prepend: site.baseurl }}{% else %}{{ url }}{% endif %}" target="_blank" rel="noopener">{% if kind == "arxiv" %}arXiv{% else %}{{ kind | capitalize }}{% endif %}</a>
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endcapture -%}
+  {%- if buttons != "" %}
+  <div class="paper-buttons">{{ buttons }}</div>
+  {%- endif %}
+</div>

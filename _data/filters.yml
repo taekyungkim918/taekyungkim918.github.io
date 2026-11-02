@@ -1,0 +1,15 @@
+# Publication filter tabs, in display order. The first one is the default view.
+# id "sel" shows papers with selected: true, "all" shows everything,
+# any other id matches the paper's `area`.
+- id: sel
+  label: Selected
+- id: all
+  label: All
+- id: physical
+  label: Physical AI
+- id: interp
+  label: Interpretability
+- id: rep
+  label: Representation learning
+- id: other
+  label: Other

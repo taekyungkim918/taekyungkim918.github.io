@@ -1,0 +1,11 @@
+# News, newest first. `date` is shown as written. Markdown is allowed in text.
+- date: "Sep. 2026"
+  text: "One paper is accepted at CoRL 2026 ([SPARK](#spark))."
+- date: "Aug. 2026"
+  text: "One paper is accepted at EMNLP 2026 ([Beneath the Surface of CoT](#beneath-cot))."
+- date: "Jun. 2026"
+  text: "One paper is accepted at ECCV 2026 ([Isotropic Embedding Perturbations](#isotropic-perturbation))."
+- date: "Feb. 2026"
+  text: "Two papers are accepted at CVPR 2026 ([ORCA](#orca), [MuCo](#muco)). One paper is accepted at CVPRW 2026 ([SPARK](#spark))."
+- date: "Jan. 2026"
+  text: "Two papers are accepted at ICLR 2026 ([Map the Flow](#map-the-flow), [Aligned Novel View Synthesis](#aligned-novel-view)). One paper is accepted at ICLRW 2026 ([VisualScratchpad](#visualscratchpad))."

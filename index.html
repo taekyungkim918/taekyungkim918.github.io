@@ -1,0 +1,100 @@
+---
+layout: default
+---
+{%- assign p = site.data.profile -%}
+<section id="about" aria-labelledby="h-name">
+  <h1 class="post-title" id="h-name">{{ p.name }}</h1>
+  <p class="post-description">{{ p.position }}</p>
+
+  <div class="about">
+    {%- if p.photo %}
+    <div class="col one right"><img src="{{ p.photo | prepend: site.baseurl }}" alt="{{ p.name }}"></div>
+    {%- endif %}
+    {%- for para in p.bio %}
+    {{ para | markdownify }}
+    {%- endfor %}
+    {%- if p.research %}
+    <ul class="research">
+      {%- for r in p.research %}
+      <li><b>{% if r.filter %}<a href="#publications" data-f="{{ r.filter }}">{{ r.title }}</a>{% else %}{{ r.title }}{% endif %}:</b> {{ r.text | markdownify | remove: "<p>" | remove: "</p>" | strip }}</li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+    {%- for para in p.bio_after %}
+    {{ para | markdownify }}
+    {%- endfor %}
+    <p class="contact">
+      {%- if p.email %}
+      <a href="mailto:{{ p.email }}">{{ p.email }}</a>
+      {%- endif %}
+      {%- for l in p.links %}
+      {%- assign first = l.url | slice: 0 %}
+      <a href="{% if first == '/' %}{{ l.url | prepend: site.baseurl }}{% else %}{{ l.url }}{% endif %}">{{ l.label }}</a>
+      {%- endfor %}
+    </p>
+  </div>
+</section>
+
+<section id="news" aria-labelledby="h-news">
+  <h2 class="section-h" id="h-news">news</h2>
+  <table class="news">
+    {%- for n in site.data.news %}
+    <tr><th scope="row">{{ n.date }}</th><td>{{ n.text | markdownify | remove: "<p>" | remove: "</p>" | strip }}</td></tr>
+    {%- endfor %}
+  </table>
+</section>
+
+<section id="publications" class="pubs" aria-labelledby="h-pubs">
+  <h2 class="category-header" id="h-pubs">Publications</h2>
+  <div class="filters" role="group" aria-label="Filter publications">
+    {%- for f in site.data.filters %}
+    <button type="button" data-f="{{ f.id }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}">{{ f.label }}</button>
+    {%- endfor %}
+  </div>
+  <p class="legend">* Equal contribution. † Corresponding author.</p>
+
+  {%- assign preprints = site.data.publications | where_exp: "x", "x.preprint == true" %}
+  {%- if preprints.size > 0 %}
+  <div class="year-subsection">
+    <h6 class="year-subheader">Preprints</h6>
+    {%- for x in preprints %}
+    {% include paper.html p=x %}
+    {%- endfor %}
+  </div>
+  {%- endif %}
+
+  {%- assign published = site.data.publications | where_exp: "x", "x.preprint != true" | group_by: "year" %}
+  {%- for y in published %}
+  <div class="year-subsection">
+    <h6 class="year-subheader">{{ y.name }}</h6>
+    {%- for x in y.items %}
+    {% include paper.html p=x %}
+    {%- endfor %}
+  </div>
+  {%- endfor %}
+</section>
+
+<section id="experience" aria-labelledby="h-exp">
+  <h2 class="section-h" id="h-exp">experience</h2>
+  <table class="news cv">
+    {%- for e in site.data.cv.experience %}
+    <tr><th scope="row">{{ e.when }}</th><td>{{ e.what }}</td></tr>
+    {%- endfor %}
+  </table>
+  <h3 class="sub-h">Education</h3>
+  <table class="news cv">
+    {%- for e in site.data.cv.education %}
+    <tr><th scope="row">{{ e.when }}</th><td>{{ e.what }}</td></tr>
+    {%- endfor %}
+  </table>
+</section>
+
+<section id="service" aria-labelledby="h-svc">
+  <h2 class="section-h" id="h-svc">service</h2>
+  <p class="svc-lead">Reviewer</p>
+  <ul class="svc">
+    {%- for s in site.data.service %}
+    <li><b>{{ s.label }}:</b> {{ s.text }}</li>
+    {%- endfor %}
+  </ul>
+</section>
