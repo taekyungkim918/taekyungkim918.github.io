@@ -33,7 +33,7 @@ research:
     filter: interp
     text: mechanistic analysis of reasoning and information flow across LLMs, Vision-Language-Action models, and omnimodal LLMs.
   - title: LLM post-training
-    text: on-policy distillation and memory agents (ongoing / under review).
+    text: on-policy distillation and memory agents.
   - title: Scalable representation learning
     filter: rep
     text: self-supervised visual representation learning and masked image modeling.
