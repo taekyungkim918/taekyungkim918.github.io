@@ -17,12 +17,11 @@ _data/profile.yml        이름, 직함, 사진, 이메일, 링크, 자기소개
 _data/publications.yml   논문 목록 (분야, selected, preprint, 링크)
 _data/filters.yml        논문 탭의 이름과 순서 (첫 번째가 기본 보기)
 _data/news.yml           소식
-_data/cv.yml             경력, 학력
 _data/service.yml        리뷰어 이력
 _data/pub_links.yml      tools/bib2links.py가 만드는 추가 링크
 _includes/paper.html     논문 한 편의 마크업
 _sass/_base.scss         색상 변수 (밝은/다크 모드)
-_sass/_layout.scss       헤더, 소개, news, 경력, 푸터
+_sass/_layout.scss       헤더, 소개, news, 푸터
 _sass/_publications.scss 논문 목록 스타일
 js/main.js               다크 모드 토글, 논문 탭, 헤더 강조
 index.html               페이지 본문

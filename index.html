@@ -74,21 +74,6 @@ layout: default
   {%- endfor %}
 </section>
 
-<section id="experience" aria-labelledby="h-exp">
-  <h2 class="section-h" id="h-exp">experience</h2>
-  <table class="news cv">
-    {%- for e in site.data.cv.experience %}
-    <tr><th scope="row">{{ e.when }}</th><td>{{ e.what }}</td></tr>
-    {%- endfor %}
-  </table>
-  <h3 class="sub-h">Education</h3>
-  <table class="news cv">
-    {%- for e in site.data.cv.education %}
-    <tr><th scope="row">{{ e.when }}</th><td>{{ e.what }}</td></tr>
-    {%- endfor %}
-  </table>
-</section>
-
 <section id="service" aria-labelledby="h-svc">
   <h2 class="section-h" id="h-svc">service</h2>
   <p class="svc-lead">Reviewer</p>

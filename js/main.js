@@ -9,7 +9,7 @@
     btn.addEventListener('click', function () {
       var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
       root.setAttribute('data-theme', next);
-      try { localStorage.setItem('theme', next); } catch (e) {}
+      try { localStorage.setItem('theme-v2', next); } catch (e) {}
       label();
     });
   }
