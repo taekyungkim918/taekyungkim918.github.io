@@ -16,10 +16,6 @@ links:                      # shown after the email, in this order
 # Paragraphs before the research list. Markdown is allowed.
 bio:
   - >-
-    I am a Research Scientist at NAVER AI Lab. I received my Ph.D. in Electrical Engineering
-    from [KAIST](https://kaist.ac.kr/), where I was advised by
-    [Prof. Changick Kim](https://ee.kaist.ac.kr/en/professor/12157/).
-  - >-
     I study how models learn the dynamics of the world and map them to grounded responses,
     from language to physical action, and how these mappings are realized inside the models.
 
@@ -38,8 +34,12 @@ research:
     filter: rep
     text: self-supervised visual representation learning and masked image modeling.
 
-# Paragraphs after the research list.
+# Paragraphs after the research list (current role and Ph.D., then earlier background).
 bio_after:
+  - >-
+    I am a Research Scientist at NAVER AI Lab. I received my Ph.D. in Electrical Engineering
+    from [KAIST](https://kaist.ac.kr/), where I was advised by
+    [Prof. Changick Kim](https://ee.kaist.ac.kr/en/professor/12157/).
   - >-
     Before joining NAVER AI Lab in 2022, I was a research intern at Qualcomm and Kakao.
     I received my B.S. in Mathematical Sciences from KAIST and spent a year and a half in its
