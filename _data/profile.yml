@@ -16,8 +16,11 @@ links:                      # shown after the email, in this order
 # Paragraphs before the research list. Markdown is allowed.
 bio:
   - >-
-    I study how models learn the dynamics of the world and map them to grounded responses,
-    from language to physical action, and how these mappings are realized inside the models.
+    My current goal is to make code-as-policy and agent-as-policy reliable for manipulation,
+    locomotion, and dexterous control, by improving both the reasoning of the underlying LLMs
+    and the harnesses (tools, memory, and execution loops) around them. My recent research
+    builds on three branches: (1) Physical AI, (2) LLMs, MLLMs, and agents, and
+    (3) interpretability of these models. I am now weaving these branches together toward this goal.
 
 # Research topics, shown as a bulleted list (same as the CV).
 # filter: optional tab id from filters.yml; the topic name then opens that tab.
@@ -25,12 +28,12 @@ research:
   - title: Physical AI
     filter: physical
     text: representation learning and post-training for robot control, World Action Models, and Vision-Language-Action models.
+  - title: LLM, MLLM, and agents
+    filter: mllm
+    text: on-policy distillation, memory agents, and video editing agents.
   - title: Interpretability of (M)LLMs
     filter: interp
     text: mechanistic analysis of reasoning and information flow across LLMs, Vision-Language-Action models, and omnimodal LLMs.
-  - title: LLM reasoning and agents
-    filter: mllm
-    text: on-policy distillation, memory agents, and video editing agents; mechanistic analysis of chain-of-thought.
   - title: Scalable representation learning
     filter: rep
     text: self-supervised visual representation learning and masked image modeling.
