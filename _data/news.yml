@@ -1,6 +1,6 @@
 # News, newest first. `date` is shown as written. Markdown is allowed in text.
 - date: "Nov. 2026"
-  text: "One paper is accepted at EACL 2027 ([Hallucination-Filtered Memory Supervision](#hallucination-filtered-memory))."
+  text: "One paper is accepted at EACL 2027 ([HaMS](#hallucination-filtered-memory))."
 - date: "Sep. 2026"
   text: "One paper is accepted at CoRL 2026 ([SPARK](#spark))."
 - date: "Aug. 2026"

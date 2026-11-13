@@ -7,10 +7,10 @@
   label: All
 - id: physical
   label: Physical AI
+- id: mllm
+  label: LLM / MLLM / Agent
 - id: interp
   label: Interpretability
-- id: mllm
-  label: MLLM / Agent
 - id: rep
   label: Representation learning
 - id: other

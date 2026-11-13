@@ -43,6 +43,7 @@ body::before{content:""; position:fixed; inset:0 0 auto; height:env(safe-area-in
 .about{margin-top:36px}
 .about p{margin-bottom:20px}
 .about b, .about strong{color:var(--strong); font-weight:600}
+.about strong{color:var(--link)}
 .contact{display:flex; flex-wrap:wrap; gap:6px 18px; margin:16px 0 0; font-size:15px}
 .contact.mails{margin-top:4px}
 

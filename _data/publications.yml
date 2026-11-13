@@ -57,6 +57,8 @@
   year: 2026
   areas: [physical]
   selected: true
+  links:
+    paper: https://arxiv.org/abs/2611.12102v1
 - key: beneath-cot
   title: "Beneath the Surface of Chains-of-Thought: A Mechanistic Interpretation of Reasoning Operations in LLMs"
   authors: "Seogyeong Jeong, Jaehui Hwang, Dongyoon Han, Geonmo Gu, Alice Oh†, Taekyung Kim†"
