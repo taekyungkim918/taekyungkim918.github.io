@@ -5,7 +5,7 @@
 #             Mark equal contribution with * and corresponding authors with †.
 # venue     : venue line under the authors (e.g. "CVPR 2026")
 # note      : optional extra line (e.g. a workshop version or an award)
-# areas     : one or more of physical | interp | llm | rep | other, e.g. [physical, rep].
+# areas     : one or more of physical | interp | mllm | rep | other, e.g. [physical, rep].
 #             Shown as tags next to the venue; a paper appears under every matching tab.
 # selected  : true shows the paper under the default "Selected" tab
 # preprint  : true lists it under "Preprints" instead of its year
@@ -47,7 +47,7 @@
   authors: "Taekyung Kim"
   venue: "EACL 2027"
   year: 2027
-  areas: [llm]
+  areas: [mllm]
   selected: true
 - key: spark
   title: "SPARK: Simple Post-training for Adapting pRetrained Knowledge to Robot Control"
@@ -62,7 +62,7 @@
   authors: "Seogyeong Jeong, Jaehui Hwang, Dongyoon Han, Geonmo Gu, Alice Oh†, Taekyung Kim†"
   venue: "EMNLP 2026"
   year: 2026
-  areas: [interp, llm]
+  areas: [interp, mllm]
   selected: true
   links:
     paper: https://arxiv.org/abs/2609.04753
@@ -100,7 +100,7 @@
   authors: "Minji Kim*, Taekyung Kim*, Bohyung Han"
   venue: "ICLR 2026"
   year: 2026
-  areas: [interp]
+  areas: [interp, mllm]
   selected: true
   links:
     paper: https://arxiv.org/abs/2510.13251
@@ -120,7 +120,7 @@
   authors: "Hyesu Lim, Jinho Choi, Taekyung Kim, Byeongho Heo, Jaegul Choo, Dongyoon Han"
   venue: "ICLR 2026 Workshop"
   year: 2026
-  areas: [interp]
+  areas: [interp, mllm]
   links:
     paper: https://arxiv.org/abs/2603.07335
     project: https://hyesulim.github.io/visual_scratchpad_projectpage/

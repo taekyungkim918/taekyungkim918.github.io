@@ -29,7 +29,7 @@ research:
     filter: interp
     text: mechanistic analysis of reasoning and information flow across LLMs, Vision-Language-Action models, and omnimodal LLMs.
   - title: LLM reasoning and agents
-    filter: llm
+    filter: mllm
     text: on-policy distillation, memory agents, and video editing agents; mechanistic analysis of chain-of-thought.
   - title: Scalable representation learning
     filter: rep
