@@ -30,7 +30,7 @@ research:
     text: representation learning and post-training for robot control, World Action Models, and Vision-Language-Action models.
   - title: LLMs, MLLMs, and agents
     filter: mllm
-    text: on-policy distillation, memory agents, and video editing agents.
+    text: LLM reasoning, on-policy distillation, memory agents, and video editing agents.
   - title: Interpretability
     filter: interp
     text: mechanistic analysis of reasoning and information flow across LLMs, Vision-Language-Action models, and omnimodal LLMs.

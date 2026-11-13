@@ -45,7 +45,7 @@
 - key: hallucination-filtered-memory
   title: "Hallucination-Filtered Memory Supervision Enables Memory Agents Without Reinforcement Learning"
   authors: "Taekyung Kim"
-  venue: "EACL 2027"
+  venue: "Accepted to EACL 2027"
   year: 2027
   areas: [mllm]
   selected: true
