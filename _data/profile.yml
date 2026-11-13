@@ -16,7 +16,7 @@ links:                      # shown after the email, in this order
 # Paragraphs before the research list. Markdown is allowed.
 bio:
   - >-
-    My current goal is to make **code-as-policy** and **agent-as-policy** reliable for manipulation,
+    My current goal is to make **code-as-policy** and **agent-as-policy** more capable and reliable for manipulation,
     locomotion, and dexterous control, by improving both the reasoning of the underlying LLMs
     and the harnesses (tools, memory, and execution loops) around them. My research builds on
     three branches: (1) Physical AI, (2) LLMs, MLLMs, and agents, and (3) interpretability of
