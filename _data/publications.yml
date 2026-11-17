@@ -13,6 +13,15 @@
 
 
 # Preprints
+- key: omni-modal-know-more
+  title: "Omni-Modal LLMs Know More Than They Say"
+  authors: "Na Min An, Taekyung Kim, Jaemyung Yu, Hyunjung Shim†, Dongyoon Han†"
+  venue: "arXiv preprint, 2026"
+  year: 2026
+  areas: [mllm, interp]
+  preprint: true
+  links:
+    paper: https://arxiv.org/abs/2610.16135
 - key: sparse-feature-unlearning
   title: "Sparse Feature Policy Unlearning Mitigates State Hallucination in Vision-Language-Action Models"
   authors: "Jiho Lee, Jeongeun Park, Heayoun Choi, Taekyung Kim†, Eunwoo Kim†"
