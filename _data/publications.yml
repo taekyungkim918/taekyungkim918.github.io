@@ -41,6 +41,7 @@
   preprint: true
   links:
     paper: https://arxiv.org/abs/2606.15631
+    project: https://recap-robot.github.io/
 
 # 2026
 - key: hallucination-filtered-memory
