@@ -31,6 +31,7 @@
   preprint: true
   links:
     paper: https://arxiv.org/abs/2610.14351
+    project: https://watch-wam.github.io/
 - key: retrieve-dont-retrain
   title: "Retrieve, Don’t Retrain: Extending Vision Language Action Models to New Tasks at Test Time"
   authors: "Jeongeun Park, Juhan Park, Taekyung Kim, Sungjoon Choi, Dongyoon Han, Sangdoo Yun"
